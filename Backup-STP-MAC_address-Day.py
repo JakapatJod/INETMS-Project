@@ -161,13 +161,13 @@ DEVICE_GROUPS: Dict[str, Dict[str, str]] = {
     },
     "SportCenter": {"172.23.84.42": "SCG-BS-N-SportCenter-FL04-24G-01"},
     "Tennis": {"172.23.84.41": "SCG-BS-N-Tennis-FL01-24G-01"},
-    "sh": {"172.23.84.38": "SCG-BS-N-B17-FL01-48G-01"},
+    "B17": {"172.23.84.38": "SCG-BS-N-B17-FL01-48G-01"},
 }
 
 # ----------------- Commands -----------------
 PRE_COMMANDS = ["no page"]
 COMMANDS = [
-    "sho spanning-tree summary root",
+    "show spanning-tree summary root",
     "show mac-address-table",
     "show int lag 1",
     "show lacp aggregates",
