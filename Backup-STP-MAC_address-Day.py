@@ -17,7 +17,9 @@ DEVICE_GROUPS: Dict[str, Dict[str, str]] = {
         "172.23.84.43": "SCG-BS-S-B1-FL01-24G-01",
         "172.23.84.44": "SCG-BS-S-B1-FL02-24G-01",
     },
-    "B17": {"172.23.84.39": "SCG-BS-N-B17-FL02-24G-01"},
+    "B17": {"172.23.84.39": "SCG-BS-N-B17-FL02-24G-01",
+            "172.23.84.38": "SCG-BS-N-B17-FL01-48G-01"
+    },
     "B18": {"172.23.84.62": "SCG-BS-S-B18-FL01-24G-01"},
     "B19": {
         "172.23.84.63": "SCG-BS-S-B19-FL01-24G-01",
@@ -161,7 +163,6 @@ DEVICE_GROUPS: Dict[str, Dict[str, str]] = {
     },
     "SportCenter": {"172.23.84.42": "SCG-BS-N-SportCenter-FL04-24G-01"},
     "Tennis": {"172.23.84.41": "SCG-BS-N-Tennis-FL01-24G-01"},
-    "B17": {"172.23.84.38": "SCG-BS-N-B17-FL01-48G-01"},
 }
 
 # ----------------- Commands -----------------
